@@ -1,3 +1,9 @@
+PATH
+  remote: ../blorgh
+  specs:
+    blorgh (0.1.0)
+      rails (~> 5.0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -158,6 +164,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  blorgh!
   byebug
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
@@ -170,7 +177,6 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   sqlite3
   turbolinks (~> 5)
-  tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
 
