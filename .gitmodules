@@ -1,0 +1,3 @@
+[submodule "blorgh"]
+	path = blorgh
+	url = git@github.com:AlexKVal/blorgh.git
