@@ -5,8 +5,9 @@ Just
 > git clone git@github.com:AlexKVal/unicorn-container.git
 > cd unicorn-container
 > make setup
+> rails db:migrate
 > rails s
-> open http://localhost:3000
+> open http://localhost:3000/blog
 ```
 
 To get the blorgh-submodule's updates
