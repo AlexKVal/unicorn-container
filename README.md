@@ -17,3 +17,11 @@ origin	git@github.com:AlexKVal/blorgh.git (fetch)
 origin	git@github.com:AlexKVal/blorgh.git (push)
 > git pull
 ```
+or
+```
+> git submodule update --remote
+```
+then as usual
+```
+> git commit -a -m 'update the git submodule'
+```
